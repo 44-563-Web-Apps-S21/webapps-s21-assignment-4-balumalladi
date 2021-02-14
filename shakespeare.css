@@ -1,0 +1,11 @@
+h6,p{
+    color:black;
+    font-family:times;
+    font-size:10;
+}
+.hover{
+    background:lightblack;
+    color:yellow;
+    font-family:arial;
+    font-size:15
+}
