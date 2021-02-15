@@ -1,11 +1,35 @@
-h6,p{
-    color:black;
+h6{
+    color:darkred;
     font-family:times;
-    font-size:10;
+    font-size:20;
+    
 }
 .hover{
-    background:lightblack;
+    background:black;
     color:yellow;
     font-family:arial;
-    font-size:15
+    font-size:15;
+}
+p{
+    color:black;
+    font-family:times;
+    font-size-10;
+}
+div{ margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 70px;
+}
+table{
+     border: solid 3px red;
+     border-collapse: separate;
+    }
+th,td{
+    border:dashed 1px black;
+    text-align:center;
+}
+h6:hover{
+    color:red;
+    border: solid 2px;
 }
