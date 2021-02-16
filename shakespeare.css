@@ -28,6 +28,12 @@
 .juliet{
    color:darkorchid
 }
+.name:hover{
+       border: ridge;   
+    display: inline;
+    text-shadow: 8px 8px 8px yellow;
+    border: black;
+}
 div{ margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
@@ -50,8 +56,9 @@ tr:nth-child(odd){
     border: solid 2px;
 }
 img{
-    width:400px;
-    height:200px;
     margin-left: 40px;
     border-radius: 15px;
+    width:400px;
+    height:200px;
+   
 }
