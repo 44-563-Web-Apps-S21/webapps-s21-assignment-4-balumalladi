@@ -1,19 +1,19 @@
 .name{
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:20;
+    font: size 20px;;
     
 }
-.direction{
+.stage-direction{
     color:black;
     font-family:arial;
-    font-size:15;
-    background-color:chartreuse;
+    font: size 15px;;
+    background-color: rgba(0, 0, 255, 0.384);
 }
 .speech{
     color:black;
     font-family:times;
-    font-size: 10px;
+    font-size: 15px;
 }
 .stage-direction:hover{
     background-color: burlywood;
@@ -41,6 +41,9 @@ table{
 th,td{
     border:dashed 1px black;
     text-align:center;
+}
+tr:nth-child(odd){
+    background-color:lightgreen;
 }
 .name:hover{
     color:red;
